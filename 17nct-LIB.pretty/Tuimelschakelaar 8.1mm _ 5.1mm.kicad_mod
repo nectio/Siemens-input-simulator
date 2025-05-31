@@ -1,0 +1,145 @@
+(footprint "Tuimelschakelaar 8.1mm _ 5.1mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cabcccd4-00e0-4ed5-b24b-ddf407514ded")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_Rocker 8.1mm * 5.1mm"
+		(at 0 5.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0afa733e-5160-4973-911e-95b42ae528c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44f39ac3-18ba-4e50-b32b-f826a16be568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47d9acdb-56b5-4a24-ae07-7fad142b1b9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.55 -4.05)
+		(end 2.55 -4.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3edd515e-7a50-473a-971d-0a3b3f3e25c9")
+	)
+	(fp_line
+		(start -2.55 4.05)
+		(end -2.55 -4.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c49ca7ac-97bd-413e-a26f-1ce58d13114d")
+	)
+	(fp_line
+		(start 2.55 -4.05)
+		(end 2.55 4.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b3a78a2-beef-434c-8288-c3c6ab285429")
+	)
+	(fp_line
+		(start 2.55 4.05)
+		(end -2.55 4.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d75181ec-beac-479b-9db3-729a2f183669")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ff8b6c8-0b54-478c-8b36-c447837ad43f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -2.5)
+		(size 3.5 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65679163-c34d-44a6-9dc7-4b48a0f702bd")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 3.5 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c39025a8-3f2a-46c2-8685-4b64538c9fac")
+	)
+	(pad "3" thru_hole rect
+		(at 0 2.5)
+		(size 3.5 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba697cbb-c684-44fd-b653-b31a2c05a8f3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/17nct-LIB.pretty/Tuimelschakelaar 8.1mm _ 5.1mm.STEP"
+		(offset
+			(xyz -8 -3.1 -2)
+		)
+		(scale
+			(xyz 0.6 0.5 0.7)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
