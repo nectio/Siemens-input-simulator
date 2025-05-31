@@ -10,4 +10,4 @@ Alle rechten zijn voorbehouden aan de oorspronkelijke eigenaar.
 - Gerberbestanden  
 
 ## Render / Afbeelding:
-![PCB Render](xxx)
+![PCB Render](Sim-module.png)
