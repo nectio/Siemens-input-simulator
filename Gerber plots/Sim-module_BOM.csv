@@ -1,0 +1,4 @@
+"#","Reference","Value","Footprint","Datasheet","Beschrijving","Qty","Exclude from BOM"
+"1","S1,S2,S3,S4,S5,S6,S7,S8","SPDT","17nct-LIB:Tuimelschakelaar 8.1mm _ 5.1mm","https://www.e-switch.com/wp-content/uploads/2024/05/100-1.pdf","Tuimelschakelaar.","8",""
+"2","J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12","~","17nct-LIB:Rand connector","~","Rand connector voor printplaat in schroefklem te monteren.","11","Excluded from BOM"
+"3","J1","1*02","17nct-LIB:TE_282836-2","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308389_EUROSTYLE_TERMINAL_BLOCKS&DocType=CS&DocLang=English","Schroefklemmen 1*02","1",""
